@@ -55,8 +55,8 @@
         <link href="https://cdn.prod.website-files.com/66e86d6eddb6fda26fef89f5/6707660b2ebe6b5ccb412405_icon%20256.png" rel="apple-touch-icon"/>
         <style>
             ::selection {
-                color: #050c1f;
-                background-color: #d6e8ff;
+                color: #df2919;
+                background-color: #df2919;
             }
         </style>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/css/splide-core.min.css" integrity="sha512-cSogJ0h5p3lhb//GYQRKsQAiwRku2tKOw/Rgvba47vg0+iOFrQ94iQbmAvRPF5+qkF8+gT7XBct233jFg1cBaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
@@ -102,7 +102,7 @@
 
                     /* Focus state style for keyboard navigation for the focusable elements */
                     *[tabindex]:focus-visible, input[type="file"]:focus-visible {
-                        outline: 0.125rem solid #4d65ff;
+                        outline: 0.125rem solid #df2919;
                         outline-offset: 0.125rem;
                     }
 
@@ -268,7 +268,7 @@ a,
 
                     /*/MY STYLESSS/*/
                     .button_secondary:before {
-                        background: linear-gradient(to right, #239DFF, #4A3DFF);
+                        background: linear-gradient(to right, #ef8379, #df2919);
                         border-radius: inherit;
                         content: "";
                         inset: 0;
@@ -358,7 +358,7 @@ a,
 
                     .glowing-box-borders,.glowing-box-glow,.glowing-box-stars {
                         animation: borderTurn var(--animation-speed) infinite linear;
-                        background-image: conic-gradient(from 0 at 50% 50%,#ffffff80,#fff0 60deg,#fff0 310deg,#ffffff80 360deg);
+                        background-image: conic-gradient(from 0 at 50% 50%,#ffffff80,#df2919 60deg,#df2919 310deg,#ffffff80 360deg);
                         background-position: center center;
                         background-repeat: no-repeat;
                         background-size: cover;
@@ -430,6 +430,22 @@ a,
                             transform: translate(-50%,-50%) rotate(360deg)
                         }
                     }
+
+                    .text-gradient{
+                        -webkit-text-fill-color: transparent;
+                        background-image: linear-gradient(76deg, #e88076, #df2919);
+                        -webkit-background-clip: text;
+                        background-clip: text;
+                    }
+
+                    :root{
+                        --color--blue100: #b1c6e0;
+                        --color--white: #fff;
+                        --gradient-primary--stop1: #d0d0d0;
+                        --gradient-primary--stop2: #da5347;
+                        --gradient-primary--stop3: #df2919;
+                    }
+
                 </style>
             </div>
             <div class="custom-styles w-embed">
@@ -463,15 +479,15 @@ a,
                         <div class="nav_container">
                             <div class="nav_content">
                                 <a href="/" aria-current="page" class="nav_brand w-nav-brand w--current">
-                                    <img src="assets/img/VERSATIO.png" loading="lazy" alt="" class="nav_logo"/>
+                                    <img src="assets/img/MKTIA_WG.svg" loading="lazy" alt="" class="nav_logo" style="padding-top: 10px; width: 150px;">
                                 </a>
                                 <nav role="navigation" class="nav_menu w-nav-menu">
-                                    <div class="nav_menu-link">
+                                    <!-- <div class="nav_menu-link">
                                         <a href="precio.html" class="nav_menu_link w-nav-link">Precio</a>
                                         <a href="/done-for-you" class="nav_menu_link w-nav-link">Done For You</a>
                                         <a href="/do-it-yourself" class="nav_menu_link w-nav-link">Do It Yourself</a>
                                         <a href="/partnerships" class="nav_menu_link w-nav-link">Partnership</a>
-                                    </div>
+                                    </div> -->
                                     <div class="spacer-large show-tablet"></div>
                                     <div class="button_section hide-tablet">
                                         <a href="/demo-ora" class="button_secondary w-inline-block">
@@ -549,23 +565,25 @@ a,
                                         <div id="w-node-_668cbae3-163e-0088-58ca-80eb6db7c6ff-6fef8a46" class="flex_horizontal is_tb_center">
                                             <div class="tag_card-gradient">
                                                 <div class="bg_gradient-opacity"></div>
-                                                <div class="text-size-tiny text-style-allcaps text-weight-semibold">🥇 #1 Primera ia conversacional hispanOHABLANTE</div>
+                                                <div class="text-size-tiny text-style-allcaps text-weight-semibold">🥇 La primera IA entrenada con Programación neurolingüística</div>
                                             </div>
                                         </div>
                                         <div id="w-node-ffae97f7-de91-d5b1-99f8-7e0ae5a1ade1-6fef8a46" class="spacer-small"></div>
-                                        <h1 class="heading-style-h1 text-color-blue50">Esto es una prueba del sitio</h1>
+                                        <h1 class="heading-style-h1 text-color-blue50" style="font-size: 40px;">Impulsa tus ventas con agentes de IA que</h1>
                                         <div class="heading-style-h1 is_box_typing">
-                                            <div id="dynamic-word-home" class="text-gradient dynamic-text">movimiento</div>
+                                            <div id="dynamic-word-home" class="text-gradient dynamic-text" style="font-size: 35px;">
+                                                maximizan productividad
+                                            </div>
                                             <div data-w-id="f484a0ec-fb10-8b2f-8ed4-ea37b4d73b43" class="typing_cursor"></div>
                                         </div>
                                         <div id="w-node-af083168-7fe8-6788-ac34-101abd1def04-6fef8a46" class="spacer-small"></div>
                                         <div class="max-width-medium align-center">
-                                            <p class="text-size-medium">Haz miles de llamadas y deja de perder clientes con tu Agente de IA 24/7</p>
+                                            <p class="text-size-medium">Conecta, persuade y cierra negocios 24/7 con IA+PNL</p>
                                         </div>
                                         <div class="spacer-xmedium"></div>
                                         <div id="w-node-_11e94971-04bd-84e1-b356-adb1b83bbdbf-6fef8a46" class="flex_horizontal is_tb_center">
                                             <a href="#adengar-llamada" class="button_primary w-inline-block">
-                                                <div>Agenda Tu Sesión De Crecimiento</div>
+                                                <div>Evoluciona tu negocio HOY</div>
                                                 <img src="https://cdn.prod.website-files.com/66e86d6eddb6fda26fef89f5/66f8ce0fed3e6001ee763c74_arrowbutton.svg" loading="lazy" alt="" class="icon-1x1-xsmall is-arrow-icon"/>
                                                 <div class="border_card-gradient is_radius_buton"></div>
                                             </a>
@@ -743,7 +761,7 @@ a,
                     </div>
                     <div class="bg_main">
                         <div class="bg_main-overlay"></div>
-                        <img src="https://cdn.prod.website-files.com/66e86d6eddb6fda26fef89f5/67016ef42c41968af5484d60_bg%20hero%20main.avif" loading="eager" sizes="100vw" srcset="https://cdn.prod.website-files.com/66e86d6eddb6fda26fef89f5/67016ef42c41968af5484d60_bg%20hero%20main-p-500.avif 500w, https://cdn.prod.website-files.com/66e86d6eddb6fda26fef89f5/67016ef42c41968af5484d60_bg%20hero%20main.avif 1440w" alt="" class="bg_main-image is_full"/>
+                        <img src="assets/back.png" alt="" class="bg_main-image is_full"/>
                     </div>
                 </section>
                  <div class="section_home-partners">
@@ -841,15 +859,15 @@ a,
                                                     <path d="M1.77778 16C1.28889 16 0.87037 15.8259 0.522222 15.4778C0.174074 15.1296 0 14.7111 0 14.2222V1.77778C0 1.28889 0.174074 0.87037 0.522222 0.522222C0.87037 0.174074 1.28889 0 1.77778 0H14.2222C14.7111 0 15.1296 0.174074 15.4778 0.522222C15.8259 0.87037 16 1.28889 16 1.77778V14.2222C16 14.7111 15.8259 15.1296 15.4778 15.4778C15.1296 15.8259 14.7111 16 14.2222 16H1.77778ZM1.77778 14.2222H7.11111V1.77778H1.77778V14.2222ZM8.88889 14.2222H14.2222V8H8.88889V14.2222ZM8.88889 6.22222H14.2222V1.77778H8.88889V6.22222Z" fill="currentColor"/>
                                                 </svg>
                                             </div>
-                                            <div class="text-size-xmedium">Plataforma</div>
+                                            <div class="text-size-xmedium">Sistema de Ventas Avanzado</div>
                                         </div>
                                         <div class="spacer-xxmedium"></div>
                                         <h2 class="heading-style-h3 text-color-blue50">
-                                            <span class="text-gradient">Amplifica</span>
-                                            el️ poder de ventas con IA
+                                            <span class="text-gradient">Potencia al máximo</span>
+                                            tu fuerza de ventas con IA + PNL
                                         </h2>
                                         <div class="spacer-small"></div>
-                                        <p class="text-size-medium">Seamos realistas: todos vimos esto venir. ¿Un IA tan poderoso que puede hablar con la gente? Hicimos eso realidad. Presentamos el IA conversacional más potente del mercado, combinado con una plataforma diseñada para revolucionar tu alcance de ventas. Con nuestro sistema, puedes:</p>
+                                        <p class="text-size-medium">El futuro de las ventas ya está aquí. ¿Una IA capaz de conectar, persuadir y cerrar ventas de forma natural? Hoy es una realidad. Presentamos la solución más avanzada en ventas inteligentes: IA conversacional potenciada con Programación Neurolingüística (PNL). Esta combinación estratégica transforma cada interacción en una oportunidad de negocio. <br><br>Con nuestro sistema, podrás:</p>
                                     </div>
                                 </div>
                                 <div class="spacer-medium"></div>
@@ -860,7 +878,7 @@ a,
                                                 <path d="M10.6 13.8L8.45 11.65C8.26667 11.4667 8.03333 11.375 7.75 11.375C7.46667 11.375 7.23333 11.4667 7.05 11.65C6.86667 11.8333 6.775 12.0667 6.775 12.35C6.775 12.6333 6.86667 12.8667 7.05 13.05L9.9 15.9C10.1 16.1 10.3333 16.2 10.6 16.2C10.8667 16.2 11.1 16.1 11.3 15.9L16.95 10.25C17.1333 10.0667 17.225 9.83333 17.225 9.55C17.225 9.26667 17.1333 9.03333 16.95 8.85C16.7667 8.66667 16.5333 8.575 16.25 8.575C15.9667 8.575 15.7333 8.66667 15.55 8.85L10.6 13.8ZM12 22C10.6167 22 9.31667 21.7375 8.1 21.2125C6.88333 20.6875 5.825 19.975 4.925 19.075C4.025 18.175 3.3125 17.1167 2.7875 15.9C2.2625 14.6833 2 13.3833 2 12C2 10.6167 2.2625 9.31667 2.7875 8.1C3.3125 6.88333 4.025 5.825 4.925 4.925C5.825 4.025 6.88333 3.3125 8.1 2.7875C9.31667 2.2625 10.6167 2 12 2C13.3833 2 14.6833 2.2625 15.9 2.7875C17.1167 3.3125 18.175 4.025 19.075 4.925C19.975 5.825 20.6875 6.88333 21.2125 8.1C21.7375 9.31667 22 10.6167 22 12C22 13.3833 21.7375 14.6833 21.2125 15.9C20.6875 17.1167 19.975 18.175 19.075 19.075C18.175 19.975 17.1167 20.6875 15.9 21.2125C14.6833 21.7375 13.3833 22 12 22ZM12 20C14.2333 20 16.125 19.225 17.675 17.675C19.225 16.125 20 14.2333 20 12C20 9.76667 19.225 7.875 17.675 6.325C16.125 4.775 14.2333 4 12 4C9.76667 4 7.875 4.775 6.325 6.325C4.775 7.875 4 9.76667 4 12C4 14.2333 4.775 16.125 6.325 17.675C7.875 19.225 9.76667 20 12 20Z" fill="currentColor"/>
                                             </svg>
                                         </div>
-                                        <div class="text-size-medium">Conectar con +10000 de prospectos</div>
+                                        <div class="text-size-medium">Conectar con +10,000 prospectos en tiempo record</div>
                                     </div>
                                     <div class="platform_benefits-item">
                                         <div class="icon-1x1-xxmedium w-embed">
@@ -868,7 +886,7 @@ a,
                                                 <path d="M10.6 13.8L8.45 11.65C8.26667 11.4667 8.03333 11.375 7.75 11.375C7.46667 11.375 7.23333 11.4667 7.05 11.65C6.86667 11.8333 6.775 12.0667 6.775 12.35C6.775 12.6333 6.86667 12.8667 7.05 13.05L9.9 15.9C10.1 16.1 10.3333 16.2 10.6 16.2C10.8667 16.2 11.1 16.1 11.3 15.9L16.95 10.25C17.1333 10.0667 17.225 9.83333 17.225 9.55C17.225 9.26667 17.1333 9.03333 16.95 8.85C16.7667 8.66667 16.5333 8.575 16.25 8.575C15.9667 8.575 15.7333 8.66667 15.55 8.85L10.6 13.8ZM12 22C10.6167 22 9.31667 21.7375 8.1 21.2125C6.88333 20.6875 5.825 19.975 4.925 19.075C4.025 18.175 3.3125 17.1167 2.7875 15.9C2.2625 14.6833 2 13.3833 2 12C2 10.6167 2.2625 9.31667 2.7875 8.1C3.3125 6.88333 4.025 5.825 4.925 4.925C5.825 4.025 6.88333 3.3125 8.1 2.7875C9.31667 2.2625 10.6167 2 12 2C13.3833 2 14.6833 2.2625 15.9 2.7875C17.1167 3.3125 18.175 4.025 19.075 4.925C19.975 5.825 20.6875 6.88333 21.2125 8.1C21.7375 9.31667 22 10.6167 22 12C22 13.3833 21.7375 14.6833 21.2125 15.9C20.6875 17.1167 19.975 18.175 19.075 19.075C18.175 19.975 17.1167 20.6875 15.9 21.2125C14.6833 21.7375 13.3833 22 12 22ZM12 20C14.2333 20 16.125 19.225 17.675 17.675C19.225 16.125 20 14.2333 20 12C20 9.76667 19.225 7.875 17.675 6.325C16.125 4.775 14.2333 4 12 4C9.76667 4 7.875 4.775 6.325 6.325C4.775 7.875 4 9.76667 4 12C4 14.2333 4.775 16.125 6.325 17.675C7.875 19.225 9.76667 20 12 20Z" fill="currentColor"/>
                                             </svg>
                                         </div>
-                                        <div class="text-size-medium">IA esta disponible todos los días</div>
+                                        <div class="text-size-medium">Operar 24/7 con agentes inteligentes de forma continua</div>
                                     </div>
                                     <div class="platform_benefits-item">
                                         <div class="icon-1x1-xxmedium w-embed">
@@ -876,7 +894,7 @@ a,
                                                 <path d="M10.6 13.8L8.45 11.65C8.26667 11.4667 8.03333 11.375 7.75 11.375C7.46667 11.375 7.23333 11.4667 7.05 11.65C6.86667 11.8333 6.775 12.0667 6.775 12.35C6.775 12.6333 6.86667 12.8667 7.05 13.05L9.9 15.9C10.1 16.1 10.3333 16.2 10.6 16.2C10.8667 16.2 11.1 16.1 11.3 15.9L16.95 10.25C17.1333 10.0667 17.225 9.83333 17.225 9.55C17.225 9.26667 17.1333 9.03333 16.95 8.85C16.7667 8.66667 16.5333 8.575 16.25 8.575C15.9667 8.575 15.7333 8.66667 15.55 8.85L10.6 13.8ZM12 22C10.6167 22 9.31667 21.7375 8.1 21.2125C6.88333 20.6875 5.825 19.975 4.925 19.075C4.025 18.175 3.3125 17.1167 2.7875 15.9C2.2625 14.6833 2 13.3833 2 12C2 10.6167 2.2625 9.31667 2.7875 8.1C3.3125 6.88333 4.025 5.825 4.925 4.925C5.825 4.025 6.88333 3.3125 8.1 2.7875C9.31667 2.2625 10.6167 2 12 2C13.3833 2 14.6833 2.2625 15.9 2.7875C17.1167 3.3125 18.175 4.025 19.075 4.925C19.975 5.825 20.6875 6.88333 21.2125 8.1C21.7375 9.31667 22 10.6167 22 12C22 13.3833 21.7375 14.6833 21.2125 15.9C20.6875 17.1167 19.975 18.175 19.075 19.075C18.175 19.975 17.1167 20.6875 15.9 21.2125C14.6833 21.7375 13.3833 22 12 22ZM12 20C14.2333 20 16.125 19.225 17.675 17.675C19.225 16.125 20 14.2333 20 12C20 9.76667 19.225 7.875 17.675 6.325C16.125 4.775 14.2333 4 12 4C9.76667 4 7.875 4.775 6.325 6.325C4.775 7.875 4 9.76667 4 12C4 14.2333 4.775 16.125 6.325 17.675C7.875 19.225 9.76667 20 12 20Z" fill="currentColor"/>
                                             </svg>
                                         </div>
-                                        <div class="text-size-medium">Estrategia de ventas años luz adelante</div>
+                                        <div class="text-size-medium">Ejecutar estrategias de ventas diseñadas para conectar, influir y concretar</div>
                                     </div>
                                 </div>
                                 <div class="spacer-xxlarge"></div>
@@ -910,20 +928,17 @@ a,
                                                 </div>
                                                 <div class="card_platform-description">
                                                     <div class="spacer-small"></div>
-                                                    <div class="text-size-large text-weight-semibold text-color-blue50">Desbloquea tu potencial de ventas con IA.</div>
+                                                    <div class="text-size-large text-weight-semibold text-color-blue50">🚀 Desbloquea tu Potencial de Ventas con IA</div>
                                                     <div class="spacer-small"></div>
                                                     <p class="text-size-regular">
-                                                        Un momento de silencio para los métodos tradicionales. El IA nunca se cansa e integra perfectamente con tu otro software. <br/>
-                                                        <br/>
-                                                        Lo que significa que puedes hacer cosas como: nutrición automatizada de leads y llamadas en frío masivas, generando un potencial de crecimiento masivo casi de la noche a la mañana. <br/>
-                                                        <br/>Prepárate para tener respuestas listas, porque la gente se estará preguntando: &quot;¿Cómo diablos lo hiciste?&quot;
+                                                        Impulsa tus ventas con inteligencia artificial. Automatiza la generación de leads y realiza llamadas efectivas a gran escala. Integra tecnología de vanguardia y logra un crecimiento acelerado. Prepárate para crecer con verdaderos resultados.
                                                     </p>
                                                     <div class="spacer-large"></div>
                                                 </div>
                                             </div>
                                             <div class="button_section">
                                                 <a href="/demo-ora" class="button_secondary w-inline-block">
-                                                    <div>PRUEBA GRATIS ORA IA</div>
+                                                    <div>¡Prueba Gratis Ahora!</div>
                                                     <img src="https://cdn.prod.website-files.com/66e86d6eddb6fda26fef89f5/66f8df5ac05ff030af5613fb_arrowbutton-1.svg" loading="lazy" alt="" class="icon-1x1-xsmall is-arrow-icon"/>
                                                 </a>
                                             </div>
@@ -941,9 +956,9 @@ a,
                                                 <img src="https://cdn.prod.website-files.com/66e86d6eddb6fda26fef89f5/670706ffb85473353524ce0e_aprendizaje-graphic%202b.avif" loading="lazy" sizes="(max-width: 479px) 76vw, (max-width: 767px) 83vw, (max-width: 991px) 81vw, 38vw" srcset="https://cdn.prod.website-files.com/66e86d6eddb6fda26fef89f5/670706ffb85473353524ce0e_aprendizaje-graphic%202b-p-500.png 500w, https://cdn.prod.website-files.com/66e86d6eddb6fda26fef89f5/670706ffb85473353524ce0e_aprendizaje-graphic%202b-p-800.png 800w, https://cdn.prod.website-files.com/66e86d6eddb6fda26fef89f5/670706ffb85473353524ce0e_aprendizaje-graphic%202b.avif 1084w" alt="" class="platform_image-learn"/>
                                             </div>
                                             <div class="card_platform-description">
-                                                <div class="text-size-large text-weight-semibold text-color-blue50">Fácil de Entrenar e Implementar</div>
+                                                <div class="text-size-large text-weight-semibold text-color-blue50">⚡ Fácil de Entrenar e Implementar</div>
                                                 <div class="spacer-small"></div>
-                                                <p class="text-size-regular">Simplemente proporciona algunas indicaciones básicas y un poco de preguntas y respuestas, carga tus leads, ¡y listo! Es tan sencillo que hasta un niño de 12 años podría hacerlo.</p>
+                                                <p class="text-size-regular">Carga tus leads, indícanos tu objetivo y deja que nuestra IA realice su trabajo. Su interfaz intuitiva facilita la implementación para maximizar resultados rápidamente.</p>
                                             </div>
                                         </div>
                                         <div id="w-node-eb53958b-de16-761c-9484-fd23c3deb6b1-6fef8a46" class="card_main">
@@ -964,10 +979,10 @@ a,
                                             <div class="card_platform-description">
                                                 <div class="spacer-small"></div>
                                                 <div class="text-size-large text-weight-semibold text-color-blue50">
-                                                    Equipado con PLN -<span class="text-size-xmedium">Procesamiento Lenguaje Natural</span>
+                                                    🧠 Potenciado con PLN + PNL – Comunicación Inteligente y Persuasiva
                                                 </div>
                                                 <div class="spacer-small"></div>
-                                                <p class="text-size-regular">Nuestro IA no solo es inteligente; es inteligente en contexto. Entiende la conversación y tu negocio, imitando a un representante real de tu compañía con una precision asombrosa</p>
+                                                <p class="text-size-regular">Nuestra IA combina Procesamiento de Lenguaje Natural (PLN) y Programación Neurolingüística (PNL) para entender, conectar e influir como un experto. Cada interacción es natural, estratégica y efectiva, elevando la experiencia del cliente a nuevos niveles.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -987,12 +1002,12 @@ a,
                                             <div class="text-size-xmedium">Business</div>
                                         </div>
                                         <div class="spacer-xxmedium"></div>
-                                        <h2 class="heading-style-h3 text-color-blue50">Usos y Funciones para Empresas.</h2>
+                                        <h2 class="heading-style-h3 text-color-blue50">Aplicaciones estratégicas para empresas</h2>
                                         <h2 class="heading-style-h3 text-color-blue50">
-                                            <span class="text-gradient">IA Conversacional</span>
+                                            <span class="text-gradient">IA Conversacional + Neuroventas</span>
                                         </h2>
                                         <div class="spacer-small"></div>
-                                        <p class="text-size-medium">Nuestra IA entra en acción en cuanto se recibe un cliente potencial, calificándolo en minutos e incluso preparando el terreno para citas.</p>
+                                        <p class="text-size-medium">Nuestra IA inteligente actúa de inmediato al detectar un cliente potencial, calificándolo estratégicamente en minutos y guiándolo de forma natural hacia la programación de citas, combinando tecnología avanzada con técnicas de PNL para maximizar resultados.</p>
                                     </div>
                                 </div>
                                 <div class="padding-section-medium position-relative">
@@ -1109,9 +1124,9 @@ a,
                                                         </div>
                                                     </div>
                                                     <div class="spacer-xmedium"></div>
-                                                    <div class="text-size-medium text-weight-semibold text-color-blue50">Participación Instantánea</div>
+                                                    <div class="text-size-medium text-weight-semibold text-color-blue50">Activación Instantánea</div>
                                                     <div class="spacer-small"></div>
-                                                    <div class="text-size-regular">Cuando llega un cliente potencial, la IA comienza a trabajar para que no se pierdan oportunidades.</div>
+                                                    <div class="text-size-regular">Nuestra IA detecta de inmediato a cada cliente potencial y ejecuta acciones estratégicas para aprovechar cada oportunidad comercial.</div>
                                                 </div>
                                                 <div id="w-node-_8464273d-f7f5-21b3-b219-cf7e4767eeb5-0baa06f5" class="card_business">
                                                     <div class="icon_business-content">
@@ -1124,9 +1139,9 @@ a,
                                                         </div>
                                                     </div>
                                                     <div class="spacer-xmedium"></div>
-                                                    <div class="text-size-medium text-weight-semibold text-color-blue50">Clasificación y etiquetado</div>
+                                                    <div class="text-size-medium text-weight-semibold text-color-blue50">Segmentación Inteligente</div>
                                                     <div class="spacer-small"></div>
-                                                    <div class="text-size-regular">Ora IA etiqueta a los clientes potenciales, enfocandote solo en las mejores oportunidades.</div>
+                                                    <div class="text-size-regular">Clasifica y prioriza a los prospectos según su nivel de interés, dirigiendo tus esfuerzos hacia oportunidades de alto valor.</div>
                                                 </div>
                                             </div>
                                             <div class="business_icon-center">
@@ -1146,9 +1161,9 @@ a,
                                                         </div>
                                                     </div>
                                                     <div class="spacer-xmedium"></div>
-                                                    <div class="text-size-medium text-weight-semibold text-color-blue50">Alcance Amplio</div>
+                                                    <div class="text-size-medium text-weight-semibold text-color-blue50">Alcance Masivo</div>
                                                     <div class="spacer-small"></div>
-                                                    <div class="text-size-regular">ORA IA puede llamar a 10 mil personas en solo 30 min, aumentando tus posibilidades de ventas.</div>
+                                                    <div class="text-size-regular">Contacta a más de 10,000 prospectos en cuestión de minutos aumenta exponencialmente tus oportunidades de conversión.</div>
                                                 </div>
                                                 <div id="w-node-_8464273d-f7f5-21b3-b219-cf7e4767eecf-0baa06f5" class="card_business">
                                                     <div class="icon_business-content">
@@ -1163,9 +1178,9 @@ a,
                                                         </div>
                                                     </div>
                                                     <div class="spacer-xmedium"></div>
-                                                    <div class="text-size-medium text-weight-semibold text-color-blue50">Registros claros de conversación</div>
+                                                    <div class="text-size-medium text-weight-semibold text-color-blue50">Registros Precisos y Conectados</div>
                                                     <div class="spacer-small"></div>
-                                                    <div class="text-size-regular">Historiales completos de conversaciones conectados directamente al CRM.</div>
+                                                    <div class="text-size-regular">Cada interacción se registra de manera clara y se sincroniza automáticamente con tu CRM, maximizando la eficiencia de tu estrategia de ventas.</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1174,7 +1189,7 @@ a,
                                 <div class="button_section is_align_center">
                                     <a href="#adengar-llamada" class="button_secondary w-inline-block">
                                         <div class="border_button-gradient"></div>
-                                        <div>AGENDAR LLAMADA</div>
+                                        <div>AGENDA TU LLAMADA</div>
                                         <img src="https://cdn.prod.website-files.com/66e86d6eddb6fda26fef89f5/66f8ce0fed3e6001ee763c74_arrowbutton.svg" loading="lazy" alt="" class="icon-1x1-xsmall is-arrow-icon"/>
                                     </a>
                                 </div>
@@ -1199,10 +1214,10 @@ a,
                                                     <path d="M7.57073 12.4878C6.32195 12.4228 5.26829 11.9415 4.40976 11.0439C3.55122 10.1463 3.12195 9.06667 3.12195 7.80488C3.12195 6.50407 3.57724 5.39837 4.4878 4.4878C5.39837 3.57724 6.50407 3.12195 7.80488 3.12195C9.06667 3.12195 10.1463 3.55122 11.0439 4.40976C11.9415 5.26829 12.4228 6.32195 12.4878 7.57073L10.8488 7.08293C10.6797 6.38049 10.3154 5.80488 9.7561 5.3561C9.19675 4.90732 8.54634 4.68293 7.80488 4.68293C6.94634 4.68293 6.21138 4.98862 5.6 5.6C4.98862 6.21138 4.68293 6.94634 4.68293 7.80488C4.68293 8.54634 4.90732 9.19675 5.3561 9.7561C5.80488 10.3154 6.38049 10.6797 7.08293 10.8488L7.57073 12.4878ZM8.50732 15.5707C8.39024 15.5967 8.27317 15.6098 8.1561 15.6098H7.80488C6.7252 15.6098 5.71057 15.4049 4.76098 14.9951C3.81138 14.5854 2.98537 14.0293 2.28293 13.3268C1.58049 12.6244 1.02439 11.7984 0.614634 10.8488C0.204878 9.89919 0 8.88455 0 7.80488C0 6.7252 0.204878 5.71057 0.614634 4.76098C1.02439 3.81138 1.58049 2.98537 2.28293 2.28293C2.98537 1.58049 3.81138 1.02439 4.76098 0.614634C5.71057 0.204878 6.7252 0 7.80488 0C8.88455 0 9.89919 0.204878 10.8488 0.614634C11.7984 1.02439 12.6244 1.58049 13.3268 2.28293C14.0293 2.98537 14.5854 3.81138 14.9951 4.76098C15.4049 5.71057 15.6098 6.7252 15.6098 7.80488V8.1561C15.6098 8.27317 15.5967 8.39024 15.5707 8.50732L14.0488 8.03902V7.80488C14.0488 6.06179 13.4439 4.58537 12.2341 3.37561C11.0244 2.16585 9.54797 1.56098 7.80488 1.56098C6.06179 1.56098 4.58537 2.16585 3.37561 3.37561C2.16585 4.58537 1.56098 6.06179 1.56098 7.80488C1.56098 9.54797 2.16585 11.0244 3.37561 12.2341C4.58537 13.4439 6.06179 14.0488 7.80488 14.0488H8.03902L8.50732 15.5707ZM14.4585 16L11.122 12.6634L10.1463 15.6098L7.80488 7.80488L15.6098 10.1463L12.6634 11.122L16 14.4585L14.4585 16Z" fill="currentColor"/>
                                                 </svg>
                                             </div>
-                                            <div class="text-size-xmedium">Ventajas</div>
+                                            <div class="text-size-xmedium">Automatiza. Conquista. Vende.</div>
                                         </div>
                                         <div class="spacer-xxmedium"></div>
-                                        <h2 class="heading-style-h3 text-color-blue50">No Más Llamadas Manuales, Contratar Talento o Call Centers</h2>
+                                        <h2 class="heading-style-h3 text-color-blue50">Evoluciona tus ventas: Automatiza procesos, potencia resultados</h2>
                                     </div>
                                 </div>
                                 <div class="spacer-xxlarge"></div>
@@ -1216,7 +1231,7 @@ a,
                                         <div class="spacer-medium"></div>
                                         <div class="text-size-large text-weight-semibold text-color-blue50">AI Cold Caller</div>
                                         <div class="spacer-small"></div>
-                                        <p class="text-size-regular">ORA IA automatiza y optimiza las llamadas en frío, analizando datos de clientes para identificar interesados y personalizar el contacto, ayudando a las empresas a aumentar sus ventas.</p>
+                                        <p class="text-size-regular">Nuestra IA analiza datos en tiempo real para identificar prospectos de alto valor, optimizando las llamadas estratégicas con técnicas de PNL. Cada contacto genera conversaciones efectivas que impulsan tus ventas.</p>
                                     </div>
                                     <div id="w-node-c9e0172f-9b23-073f-d7e5-a900ece441bc-ece441a2" class="card_main">
                                         <div class="border_card-gradient"></div>
@@ -1227,7 +1242,7 @@ a,
                                         <div class="spacer-medium"></div>
                                         <div class="text-size-large text-weight-semibold text-color-blue50">AI Appointment Setter</div>
                                         <div class="spacer-small"></div>
-                                        <p class="text-size-regular">Con ORA IA, simplificamos la programación de citas, optimizando horarios y evitando conflictos. Nuestra solución se adapta a cada persona, facilitando la gestión de agendas y la reserva eficiente de citas.</p>
+                                        <p class="text-size-regular">Programamos reuniones de manera automática y estratégica, adaptándonos a los horarios de cada prospecto. Así, tu equipo comercial se enfoca completamente en cerrar ventas exitosas.</p>
                                     </div>
                                     <div id="w-node-c9e0172f-9b23-073f-d7e5-a900ece441c7-ece441a2" class="card_main">
                                         <div class="border_card-gradient"></div>
@@ -1238,7 +1253,7 @@ a,
                                         <div class="spacer-medium"></div>
                                         <div class="text-size-large text-weight-semibold text-color-blue50">AI Closer</div>
                                         <div class="spacer-small"></div>
-                                        <p class="text-size-regular">El asistente de ventas de ORA IA facilita el cierre de ventas, analizando interacciones con clientes, identificando las mejores formas de cerrar tratos y usando mensajes personalizados para aumentar ventas.</p>
+                                        <p class="text-size-regular">Nuestro asistente de ventas interpreta el comportamiento de los prospectos y aplica técnicas avanzadas de cierre, utilizando mensajes personalizados que facilitan decisiones de compra.</p>
                                     </div>
                                     <div id="w-node-c9e0172f-9b23-073f-d7e5-a900ece441d2-ece441a2" class="bg_main is_ventajas">
                                         <img src="https://cdn.prod.website-files.com/66e86d6eddb6fda26fef89f5/6703583245bc5499cb7d9bf2_bg%20business.avif" loading="eager" sizes="(max-width: 479px) 86vw, (max-width: 767px) 93vw, (max-width: 991px) 91vw, 89vw" srcset="https://cdn.prod.website-files.com/66e86d6eddb6fda26fef89f5/6703583245bc5499cb7d9bf2_bg%20business-p-500.avif 500w, https://cdn.prod.website-files.com/66e86d6eddb6fda26fef89f5/6703583245bc5499cb7d9bf2_bg%20business.avif 1410w" alt="" class="bg_main-image is_full"/>
@@ -1263,11 +1278,11 @@ a,
                                                         <path d="M13.0625 12C11.6177 12 10.356 11.545 9.27734 10.635C8.1987 9.725 7.52083 8.58 7.24375 7.2H1.1875C0.851042 7.2 0.56901 7.085 0.341406 6.855C0.113802 6.625 0 6.34 0 6C0 5.66 0.113802 5.375 0.341406 5.145C0.56901 4.915 0.851042 4.8 1.1875 4.8H7.24375C7.34271 4.34 7.4763 3.91 7.64453 3.51C7.81276 3.11 8.03542 2.74 8.3125 2.4H3.5625C3.22604 2.4 2.94401 2.285 2.71641 2.055C2.4888 1.825 2.375 1.54 2.375 1.2C2.375 0.86 2.4888 0.575 2.71641 0.345C2.94401 0.115 3.22604 0 3.5625 0H13.0625C14.7052 0 16.1055 0.585 17.2633 1.755C18.4211 2.925 19 4.34 19 6C19 7.66 18.4211 9.075 17.2633 10.245C16.1055 11.415 14.7052 12 13.0625 12ZM13.0625 9.6C14.0521 9.6 14.8932 9.25 15.5859 8.55C16.2786 7.85 16.625 7 16.625 6C16.625 5 16.2786 4.15 15.5859 3.45C14.8932 2.75 14.0521 2.4 13.0625 2.4C12.0729 2.4 11.2318 2.75 10.5391 3.45C9.84635 4.15 9.5 5 9.5 6C9.5 7 9.84635 7.85 10.5391 8.55C11.2318 9.25 12.0729 9.6 13.0625 9.6ZM4.75 12C4.41354 12 4.13151 11.885 3.90391 11.655C3.6763 11.425 3.5625 11.14 3.5625 10.8C3.5625 10.46 3.6763 10.175 3.90391 9.945C4.13151 9.715 4.41354 9.6 4.75 9.6H5.9375C6.27396 9.6 6.55599 9.715 6.78359 9.945C7.0112 10.175 7.125 10.46 7.125 10.8C7.125 11.14 7.0112 11.425 6.78359 11.655C6.55599 11.885 6.27396 12 5.9375 12H4.75Z" fill="currentColor"/>
                                                     </svg>
                                                 </div>
-                                                <div class="text-size-regular">Porque somos diferentes</div>
+                                                <div class="text-size-regular">Potenciando resultados con IA + PNL</div>
                                             </div>
                                             <div class="spacer-xxmedium"></div>
                                             <h2 class="heading-style-h3 text-color-blue50">
-                                                Humano vs <span class="text-gradient">Ora IA</span>
+                                                Humano vs <span class="text-gradient">MKT.IA</span>
                                             </h2>
                                         </div>
                                     </div>
@@ -1291,7 +1306,7 @@ a,
                                                         <div class="bg_icon_main"></div>
                                                         <div class="icon_list-diamond is_red"></div>
                                                     </div>
-                                                    <div class="text-size-xmedium">Pagar Salario</div>
+                                                    <div class="text-size-xmedium">Requiere inversión en salario</div>
                                                 </div>
                                                 <div class="different_list-item">
                                                     <div id="w-node-b89ca62f-1fbe-b2fd-d96c-5ade84a2bd71-84a2bd50" class="icon_list">
@@ -1299,7 +1314,7 @@ a,
                                                         <div class="bg_icon_main"></div>
                                                         <div class="icon_list-diamond is_red"></div>
                                                     </div>
-                                                    <div class="text-size-xmedium">Trabaja de 9-5</div>
+                                                    <div class="text-size-xmedium">Disponibilidad limitada a horarios de oficina</div>
                                                 </div>
                                                 <div class="different_list-item">
                                                     <div id="w-node-b89ca62f-1fbe-b2fd-d96c-5ade84a2bd78-84a2bd50" class="icon_list">
@@ -1307,7 +1322,7 @@ a,
                                                         <div class="bg_icon_main"></div>
                                                         <div class="icon_list-diamond is_red"></div>
                                                     </div>
-                                                    <div class="text-size-xmedium">Atiende A 1 Persona A La Ves</div>
+                                                    <div class="text-size-xmedium">Atiende a una persona por vez</div>
                                                 </div>
                                                 <div class="different_list-item">
                                                     <div id="w-node-b89ca62f-1fbe-b2fd-d96c-5ade84a2bd7f-84a2bd50" class="icon_list">
@@ -1315,7 +1330,7 @@ a,
                                                         <div class="bg_icon_main"></div>
                                                         <div class="icon_list-diamond is_red"></div>
                                                     </div>
-                                                    <div class="text-size-xmedium">Inconsistencia &amp;falta motivación</div>
+                                                    <div class="text-size-xmedium">Varía en desempeño y motivación</div>
                                                 </div>
                                                 <div class="different_list-item">
                                                     <div id="w-node-b89ca62f-1fbe-b2fd-d96c-5ade84a2bd86-84a2bd50" class="icon_list">
@@ -1323,7 +1338,7 @@ a,
                                                         <div class="bg_icon_main"></div>
                                                         <div class="icon_list-diamond is_red"></div>
                                                     </div>
-                                                    <div class="text-size-xmedium">Meses para capacitación</div>
+                                                    <div class="text-size-xmedium">Necesita tiempo para capacitación</div>
                                                 </div>
                                                 <div class="different_list-item">
                                                     <div id="w-node-b89ca62f-1fbe-b2fd-d96c-5ade84a2bd8d-84a2bd50" class="icon_list">
@@ -1331,7 +1346,7 @@ a,
                                                         <div class="bg_icon_main"></div>
                                                         <div class="icon_list-diamond is_red"></div>
                                                     </div>
-                                                    <div class="text-size-xmedium">Costos altos por reemplazos</div>
+                                                    <div class="text-size-xmedium">Inversión adicional en rotación de personal</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1351,7 +1366,7 @@ a,
                                                         </defs>
                                                     </svg>
                                                 </div>
-                                                <div class="text-size-xmedium text-weight-semibold text-color-blue50">Potenciado por IA</div>
+                                                <div class="text-size-xmedium text-weight-semibold text-color-blue50">Potenciado por MKT.IA</div>
                                             </div>
                                             <div class="different_list is_ia">
                                                 <div class="different_list-item">
@@ -1360,7 +1375,7 @@ a,
                                                         <div class="bg_icon_main"></div>
                                                         <div class="icon_list-diamond is_aqua"></div>
                                                     </div>
-                                                    <div class="text-size-xmedium text-color-blue50">Sin Salario Mensual</div>
+                                                    <div class="text-size-xmedium text-color-blue50">Optimiza recursos</div>
                                                 </div>
                                                 <div class="different_list-item">
                                                     <div id="w-node-b89ca62f-1fbe-b2fd-d96c-5ade84a2bda1-84a2bd50" class="icon_list">
@@ -1368,7 +1383,7 @@ a,
                                                         <div class="bg_icon_main"></div>
                                                         <div class="icon_list-diamond is_aqua"></div>
                                                     </div>
-                                                    <div class="text-size-xmedium text-color-blue50">Trabaja 24/7</div>
+                                                    <div class="text-size-xmedium text-color-blue50">Disponible 24/7</div>
                                                 </div>
                                                 <div class="different_list-item">
                                                     <div id="w-node-b89ca62f-1fbe-b2fd-d96c-5ade84a2bda8-84a2bd50" class="icon_list">
@@ -1376,7 +1391,7 @@ a,
                                                         <div class="bg_icon_main"></div>
                                                         <div class="icon_list-diamond is_aqua"></div>
                                                     </div>
-                                                    <div class="text-size-xmedium text-color-blue50">Atiende +1,000 Personas A La Vez.</div>
+                                                    <div class="text-size-xmedium text-color-blue50">Interactúa con miles de prospectos al instante</div>
                                                 </div>
                                                 <div class="different_list-item">
                                                     <div id="w-node-b89ca62f-1fbe-b2fd-d96c-5ade84a2bdaf-84a2bd50" class="icon_list">
@@ -1384,7 +1399,7 @@ a,
                                                         <div class="bg_icon_main"></div>
                                                         <div class="icon_list-diamond is_aqua"></div>
                                                     </div>
-                                                    <div class="text-size-xmedium text-color-blue50">Motivado &amp;alto rendimiento.</div>
+                                                    <div class="text-size-xmedium text-color-blue50">Consistente y con alto rendimiento</div>
                                                 </div>
                                                 <div class="different_list-item">
                                                     <div id="w-node-b89ca62f-1fbe-b2fd-d96c-5ade84a2bdb6-84a2bd50" class="icon_list">
@@ -1392,7 +1407,7 @@ a,
                                                         <div class="bg_icon_main"></div>
                                                         <div class="icon_list-diamond is_aqua"></div>
                                                     </div>
-                                                    <div class="text-size-xmedium text-color-blue50">Aprende solo, sin entrenamiento.</div>
+                                                    <div class="text-size-xmedium text-color-blue50">Aprende y mejora continuamente</div>
                                                 </div>
                                                 <div class="different_list-item">
                                                     <div id="w-node-b89ca62f-1fbe-b2fd-d96c-5ade84a2bdbd-84a2bd50" class="icon_list">
@@ -1400,7 +1415,7 @@ a,
                                                         <div class="bg_icon_main"></div>
                                                         <div class="icon_list-diamond is_aqua"></div>
                                                     </div>
-                                                    <div class="text-size-xmedium text-color-blue50">Costo cero, siempre disponible.</div>
+                                                    <div class="text-size-xmedium text-color-blue50">Costo optimizado, siempre operativo</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1420,7 +1435,7 @@ a,
                                                         <div class="text-size-medium text-weight-semibold text-color-blue50">10k Llamadas En Tiempo Record!</div>
                                                     </div>
                                                     <div class="spacer-small"></div>
-                                                    <div class="text-size-regular">¿10,000 llamadas en 30 min? Con IA Generativa, cada marcado es más rápido e inteligente.</div>
+                                                    <div class="text-size-regular">Realiza +10,000 llamadas en solo 30 minutos. Nuestra IA estratégica acelera cada interacción con precisión y eficiencia, generando más oportunidades de negocio.</div>
                                                 </div>
                                             </div>
                                             <div class="card_integrations">
@@ -1432,10 +1447,10 @@ a,
                                                                 <path d="M7.95 16.35L4.4 12.8L5.85 11.35L7.95 13.45L12.15 9.25L13.6 10.7L7.95 16.35ZM2 20C1.45 20 0.979167 19.8042 0.5875 19.4125C0.195833 19.0208 0 18.55 0 18V4C0 3.45 0.195833 2.97917 0.5875 2.5875C0.979167 2.19583 1.45 2 2 2H3V0H5V2H13V0H15V2H16C16.55 2 17.0208 2.19583 17.4125 2.5875C17.8042 2.97917 18 3.45 18 4V18C18 18.55 17.8042 19.0208 17.4125 19.4125C17.0208 19.8042 16.55 20 16 20H2ZM2 18H16V8H2V18ZM2 6H16V4H2V6Z" fill="currentColor"/>
                                                             </svg>
                                                         </div>
-                                                        <div class="text-size-medium text-weight-semibold text-color-blue50">Auto Agendador De Citas</div>
+                                                        <div class="text-size-medium text-weight-semibold text-color-blue50">Auto-Agendador de Citas</div>
                                                     </div>
                                                     <div class="spacer-small"></div>
-                                                    <div class="text-size-regular">Cada conversación se convierte en citas reservadas y leads calificados.</div>
+                                                    <div class="text-size-regular">Convierte cada conversación en citas efectivas y leads altamente calificados, optimizando el proceso comercial desde el primer contacto.</div>
                                                 </div>
                                             </div>
                                             <div class="card_integrations">
@@ -1447,10 +1462,10 @@ a,
                                                                 <path d="M5.94872 20H2.05128C1.48718 20 1.00427 19.7991 0.602564 19.3974C0.200855 18.9957 0 18.5128 0 17.9487V14.0513C0.820513 14.0513 1.53846 13.7906 2.15385 13.2692C2.76923 12.7479 3.07692 12.0855 3.07692 11.2821C3.07692 10.4786 2.76923 9.81624 2.15385 9.29487C1.53846 8.7735 0.820513 8.51282 0 8.51282V4.61538C0 4.05128 0.200855 3.56838 0.602564 3.16667C1.00427 2.76496 1.48718 2.5641 2.05128 2.5641H6.15385C6.15385 1.84615 6.40171 1.23932 6.89744 0.74359C7.39316 0.247863 8 0 8.71795 0C9.4359 0 10.0427 0.247863 10.5385 0.74359C11.0342 1.23932 11.2821 1.84615 11.2821 2.5641H15.3846C15.9487 2.5641 16.4316 2.76496 16.8333 3.16667C17.235 3.56838 17.4359 4.05128 17.4359 4.61538V8.71795C18.1538 8.71795 18.7607 8.96581 19.2564 9.46154C19.7521 9.95726 20 10.5641 20 11.2821C20 12 19.7521 12.6068 19.2564 13.1026C18.7607 13.5983 18.1538 13.8462 17.4359 13.8462V17.9487C17.4359 18.5128 17.235 18.9957 16.8333 19.3974C16.4316 19.7991 15.9487 20 15.3846 20H11.4872C11.4872 19.1453 11.2179 18.4188 10.6795 17.8205C10.141 17.2222 9.48718 16.9231 8.71795 16.9231C7.94872 16.9231 7.29487 17.2222 6.75641 17.8205C6.21795 18.4188 5.94872 19.1453 5.94872 20ZM2.05128 17.9487H4.23077C4.64103 16.8205 5.29915 16.0256 6.20513 15.5641C7.11111 15.1026 7.94872 14.8718 8.71795 14.8718C9.48718 14.8718 10.3248 15.1026 11.2308 15.5641C12.1368 16.0256 12.7949 16.8205 13.2051 17.9487H15.3846V11.7949H17.4359C17.5726 11.7949 17.6923 11.7436 17.7949 11.641C17.8974 11.5385 17.9487 11.4188 17.9487 11.2821C17.9487 11.1453 17.8974 11.0256 17.7949 10.9231C17.6923 10.8205 17.5726 10.7692 17.4359 10.7692H15.3846V4.61538H9.23077V2.5641C9.23077 2.42735 9.17949 2.30769 9.07692 2.20513C8.97436 2.10256 8.8547 2.05128 8.71795 2.05128C8.5812 2.05128 8.46154 2.10256 8.35897 2.20513C8.25641 2.30769 8.20513 2.42735 8.20513 2.5641V4.61538H2.05128V6.8718C2.97436 7.21368 3.71795 7.78632 4.28205 8.58974C4.84615 9.39316 5.12821 10.2906 5.12821 11.2821C5.12821 12.2564 4.84615 13.1453 4.28205 13.9487C3.71795 14.7521 2.97436 15.3333 2.05128 15.6923V17.9487Z" fill="currentColor"/>
                                                             </svg>
                                                         </div>
-                                                        <div class="text-size-medium text-weight-semibold text-color-blue50">Integrado a +6,000 CRMs &amp;Apps</div>
+                                                        <div class="text-size-medium text-weight-semibold text-color-blue50">Integración con CRMs y Sistemas</div>
                                                     </div>
                                                     <div class="spacer-small"></div>
-                                                    <div class="text-size-regular">Eleva tu estrategia de ventas integrando y sincronizando fácilmente con cualquier CRM.</div>
+                                                    <div class="text-size-regular">Impulsa tu estrategia de ventas con una integración fluida y sincronizada con cualquier CRM o herramienta digital. Todo tu ecosistema conectado para un rendimiento máximo.</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1477,7 +1492,7 @@ a,
                                 </defs>
                             </svg>
                         </div>
-                        <div class="padding-global">
+                        <div class="padding-global" style="padding-bottom: 100px;">
                             <div class="container-large">
                                 <div class="spacer-xxlarge"></div>
                                 <div class="growth_content">
@@ -1488,12 +1503,11 @@ a,
                                                     <path d="M1.4 12L0 10.6L7.4 3.15L11.4 7.15L16.6 2H14V0H20V6H18V3.4L11.4 10L7.4 6L1.4 12Z" fill="currentColor"/>
                                                 </svg>
                                             </div>
-                                            <div class="text-size-xmedium">Sesión Crecimiento</div>
+                                            <div class="text-size-xmedium">Implementa IA en tu negocio</div>
                                         </div>
                                         <div class="spacer-xxmedium"></div>
                                         <h2 class="heading-style-h3 text-color-blue50">
-                                            ¿Quieres <span class="text-gradient">Acelerar &amp;Automatizar</span>
-                                            tu proceso de Ventas &amp;Servicio Al Cliente?
+                                            ¿Listo para <span class="text-gradient">Impulsar y Automatizar</span> tu estrategia de ventas y servicio al cliente?
                                         </h2>
                                     </div>
                                     <div id="w-node-_4f3dac0c-fb56-96cf-6a29-8b2ed9cafeb5-6fef8a46" class="column">
@@ -1526,7 +1540,7 @@ a,
                             </div>
                         </div>
                     </div>
-                    <div class="calendar_component">
+                    <!-- <div class="calendar_component">
                         <div class="padding-global">
                             <div class="container-large">
                                 <div data-w-id="05e4d11a-5d9f-0830-4828-dc96b652dbc3" class="calendar_code-content">
@@ -1543,7 +1557,7 @@ a,
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="section_footer">
                         <div class="padding-global is_mb_padding_0rem">
                             <div class="footer_component">
@@ -1629,10 +1643,10 @@ a,
                                     </div>
                                     <div class="footer_copyrights">
                                         <a href="/" aria-current="page" class="nav_brand w-inline-block w--current">
-                                            <img src="https://cdn.prod.website-files.com/66e86d6eddb6fda26fef89f5/66f90838b88e35163c96fbd6_icon-logo.svg" loading="lazy" alt=""/>
+                                            <img src="assets/img/MKTIA_WG.svg" loading="lazy" alt="">
                                         </a>
                                         <div class="copyright">
-                                            <div class="text-block">© Copyright 2024. ORA IA ENTERPRISES LLC. All rights reserved.</div>
+                                            <div class="text-block">© Copyright MKT.IA 2025. Todos los derechos reservados. Proudly powered by <img src="assets/img/VERSATIO.png" style="width: 100px;"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -1709,7 +1723,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-intersection@0.2.0/dist/
             var typingElement = document.querySelector(".dynamic-text");
             // Guarda el texto original en una variable
             var originalText = typingElement.innerText;
-            var typeArray = ["Texto2", "Texto3"];
+            var typeArray = ["crean experiencias", "automatizan tareas", 'simplifican procesos', 'son adaptables', 'optimizan recursos', 'garantizan resultados'];
             var index = originalText.length;
             // Empieza desde el largo del texto original
             var isAdding = false;
